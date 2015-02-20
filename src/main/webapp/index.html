@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="App">
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script type="text/javascript" src="js/angular.min.js"></script>
+<script type="text/javascript" src="js/IndexController.js"></script>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
-<h1> Funfou!!!</h1>
+<div class="container-fluid" ng-controller="IndexController">
+	<div class="row">
+		<div class="form-group col-sm-6">
+			RA: <input type="text" class="form-control">
+			Nome: <input type="text" class="form-control">
+		</div>
+	</div>
+	<div class="row">
+		<div class="form-group col-sm-6">
+			<button class="btn btn-default">Cadastrar</button>
+		</div>
+	</div>
+</div>
+<input type="text" ng-model="nome">{{nome}}
 </body>
 </html>
