@@ -2,12 +2,13 @@
 <html ng-app="App">
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Cadastro</title>
 <script type="text/javascript" src="js/angular.min.js"></script>
 <script type="text/javascript" src="js/IndexController.js"></script>
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 </head>
 <body>
+<h2>Cadastro de alunos</h2>
 <div class="container-fluid" ng-controller="IndexController">
 	<div class="row">
 		<div class="form-group col-sm-6">
@@ -17,11 +18,12 @@
 	</div>
 	<div class="row">
 		<div class="form-group col-sm-6">
-			<button class="btn btn-default" ng-click="cadastrar(aluno)">Cadastrar</button>
+			<button class="btn btn-success" ng-click="cadastrar(aluno)">Cadastrar</button>
 		</div>
 	</div>
 	<div class="row">
-		<table class="table">
+	
+		<table class="table table-striped table-bordered">
 			<thead>
 				<th>RA</th>
 				<th>NOME</th>
