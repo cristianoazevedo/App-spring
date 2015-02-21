@@ -13,7 +13,8 @@
 		
 		$scope.cadastrar = function(aluno){
 			serviceIndex.setAluno(aluno).success(function(data){
-				$scope.alunos.push(data);				
+				$scope.alunos.push(data);	
+				$scope.aluno = {};
 			}).error(function(data){
 				console.log('Não funfou!');
 			})

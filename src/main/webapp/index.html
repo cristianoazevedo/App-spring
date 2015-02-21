@@ -21,15 +21,15 @@
 		</div>
 	</div>
 	<div class="row">
-		<table>
+		<table class="table">
 			<thead>
 				<th>RA</th>
 				<th>NOME</th>
 			</thead>
 			<tbody>
-				<tr>
-					<td></td>
-					<td></td>
+				<tr ng-repeat ="a in alunos">
+					<td>{{a.ra}}</td>
+					<td>{{a.nome}}</td>
 				</tr>
 			</tbody>
 		</table>	
