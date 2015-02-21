@@ -3,8 +3,8 @@ Implementation-Vendor: Pivotal Software, Inc.
 Implementation-Title: App
 Implementation-Version: 0.0.1
 Implementation-Vendor-Id: org.unicesumar
-Build-Jdk: 1.7.0_40
-Built-By: Cristiano
+Build-Jdk: 1.7.0_75
+Built-By: A
 Created-By: Maven Integration for Eclipse
 Main-Class: demo.AppApplication
 
